@@ -9,10 +9,84 @@
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <img
+        src="./assets/bowtie-cat.png"
+        alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li>The head element contains information about the webpage.</li>
+          <li>
+            The body element represents the visible content shown to the user.
+          </li>
+          <li>
+            Footer includes what's at the bottom of the page, usually more
+            information about the page such as contacts and other links.
+          </li>
+        </ul>
+      </section>
+
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>add notes about css here</li>
+        </ul>
+      </section>
+
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>prefix all git commands with 'git'</li>
+          <li>git status: checks what branch we are currently on</li>
+          <li>
+            git checkout -b branch-name: creates a new branch and switches to it
+          </li>
+          <li>
+            you must have a remote and optionally, ssh key, set up first to push
+            to github
+          </li>
+          <li>
+            pushing to git goes as so:
+            <ol>
+              <li>
+                <h3>
+                  have ssh key and remote set up so git knows which repository
+                  to push to
+                </h3>
+              </li>
+              <li>
+                <h3>git add -A</h3>
+                adds all of the files not in gitignore into a pool
+              </li>
+              <li>
+                <h3>git commit -m 'your commit name here'</h3>
+                readies the pool and allows you to add add a name to your commit
+                for tracking versions
+              </li>
+              <li>
+                <h3>git pull 'remote' 'branch'</h3>
+                pulls the code from the specified branch, usually the main to
+                make sure there are no problems. This step technically isn't
+                required, but prevents issues down the line.
+              </li>
+              <li>
+                <h3>git push 'remote' 'branch'</h3>
+                files are uploaded to github here, with a chance to specify the
+                remote and branch
+              </li>
+            </ol>
+          </li>
+        </ul>
+      </section>
+
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>your javascript notes here</li>
+        </ul>
+      </section>
     </main>
 
     <footer>
